@@ -1,27 +1,28 @@
 # ⚡ Neon Cyber Rush
 
-**Neon Cyber Rush** is a custom-built 2D brick breaker game developed in Java using Swing. Featuring a modern neon visual style, this arcade-inspired project includes paddle and ball control, interactive collision logic, and score tracking — all structured using clean object-oriented design.
+**Neon Cyber Rush** is a futuristic 2D arcade-style brick breaker game built in Java using Swing. Featuring animated visuals, power-ups, start screens, and a modular object-oriented structure, this project showcases complete game development principles using Java GUI and event-driven logic.
 
 ---
 
 ## ✨ Features
 
-- Interactive start screen with a "Start Game" button
-- Paddle and ball controlled via keyboard
-- Brick-breaking collision detection with scoring
-- Play and pause functionality
-- Custom neon-themed design elements
-- Modular class structure for easy maintenance
+- Interactive start screen with "Start Game" button
+- Paddle and ball mechanics using keyboard input
+- Collision detection with bricks, walls, and paddle
+- Score tracking, win/lose states, and visual effects
+- Power-up logic and advanced bricks
+- Custom neon-themed backgrounds and assets
 
 ---
 
 ## 🧠 Key Concepts
 
 - Java GUI programming with Swing
-- Object-Oriented Programming (OOP)
-- Event-driven design with `KeyListener` and `Timer`
-- Custom graphics with `Graphics2D`
-- Clean, modular file structure and reusable components
+- Object-Oriented Design (OOP)
+- Game loop using `javax.swing.Timer`
+- Input handling via `KeyListener`
+- Dynamic rendering with `Graphics2D`
+- Scene management via game state controller
 
 ---
 
@@ -29,18 +30,26 @@
 
 ```
 NeonCyberRush/
-├── Main.java
-├── GameFrame.java
-├── GamePanel.java
-├── Paddle.java
-├── Ball.java
-├── Brick.java
-├── StartScreenPanel.java
-├── assets/
-│   ├── background.jpg
-│   └── start_button.png
 ├── manifest.txt
-└── NeonCyberRush.jar
+├── ProjectOverview.docx
+├── assets/
+│   ├── background.png
+│   └── neon_background.png
+└── src/
+    ├── Main.java
+    ├── GameFrame.java
+    ├── GamePanel.java
+    ├── Paddle.java
+    ├── Ball.java
+    ├── Brick.java
+    ├── AdvancedBrick.java
+    ├── PowerUp.java
+    ├── EffectManager.java
+    ├── BrickHitEffect.java
+    ├── StartScreenPanel.java
+    ├── Theme.java
+    ├── GameStateManager.java
+    └── GameState.java
 ```
 
 ---
@@ -49,19 +58,19 @@ NeonCyberRush/
 
 - **Language**: Java  
 - **Library**: Java Swing  
-- **Tools**: Git, GitHub, JDK 17+, IntelliJ / VS Code
+- **Tools**: JDK 17+, IntelliJ or VS Code, Git & GitHub
 
 ---
 
 ## 🎯 Purpose
 
-This project was built to apply object-oriented design principles in a graphical desktop game. Neon Cyber Rush showcases interactive gameplay using Java Swing and reinforces skills in GUI development, collision logic, and reusable architecture — perfect for highlighting Java experience in a portfolio.
+This project was built to demonstrate core programming and game development skills using Java. It combines OOP, real-time graphics, keyboard input, and responsive UI elements to simulate a complete arcade game — making it a standout portfolio project for Java developers.
 
 ---
 
 ## 🧩 How to Run
 
-1. Make sure Java is installed:
+1. Ensure Java is installed:
 ```bash
 java -version
 ```
@@ -73,7 +82,13 @@ git clone https://github.com/Busrah25/NeonCyberRush.git
 
 3. Navigate to the project folder and run the game:
 ```bash
-java -jar NeonCyberRush.jar
+java -cp src Main
+```
+
+> Or compile everything first:
+```bash
+javac src/*.java
+java -cp src Main
 ```
 
 ---
