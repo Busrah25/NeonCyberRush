@@ -4,7 +4,7 @@
 
 ---
 
-## ✨ Features
+##  Features
 
 - Interactive start screen with "Start Game" button
 - Paddle and ball mechanics using keyboard input
@@ -15,7 +15,7 @@
 
 ---
 
-## 🧠 Key Concepts
+##  Key Concepts
 
 - Java GUI programming with Swing
 - Object-Oriented Design (OOP)
@@ -26,7 +26,7 @@
 
 ---
 
-## 🗂️ File Structure
+##  File Structure
 
 ```
 NeonCyberRush/
@@ -54,7 +54,7 @@ NeonCyberRush/
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Language**: Java  
 - **Library**: Java Swing  
@@ -62,13 +62,13 @@ NeonCyberRush/
 
 ---
 
-## 🎯 Purpose
+##  Purpose
 
 This project was built to demonstrate core programming and game development skills using Java. It combines OOP, real-time graphics, keyboard input, and responsive UI elements to simulate a complete arcade game — making it a standout portfolio project for Java developers.
 
 ---
 
-## 🧩 How to Run
+##  How to Run
 
 1. Ensure Java is installed:
 ```bash
@@ -93,7 +93,7 @@ java -cp src Main
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Bushra Ahmed**  
 📧 [busrahkhanom25@gmail.com](mailto:busrahkhanom25@gmail.com)  
