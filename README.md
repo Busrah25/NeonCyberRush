@@ -1,100 +1,54 @@
 # Neon Cyber Rush
 
-**Neon Cyber Rush** is a futuristic 2D arcade-style brick breaker game built in Java using Swing. Featuring animated visuals, power-ups, start screens, and a modular object-oriented structure, this project showcases complete game development principles using Java GUI and event-driven logic.
+A futuristic 2D arcade style brick breaker game developed in Java using Swing. The project demonstrates object oriented design, event driven programming, and real time graphical rendering through a complete desktop game implementation.
 
----
+## Overview
+Neon Cyber Rush recreates classic brick breaker gameplay with modern visuals and a structured architecture. The project focuses on separating game logic, rendering, input handling, and state management into clear components. It was built to practice Java GUI programming and game development fundamentals in an academic setting.
 
-##  Features
+## Key Features
+- Interactive start screen with controlled game flow  
+- Keyboard based paddle and ball mechanics  
+- Collision detection between ball, bricks, paddle, and walls  
+- Score tracking with win and loss conditions  
+- Power up logic and advanced brick behavior  
+- Neon themed visuals and animated effects  
 
-- Interactive start screen with "Start Game" button
-- Paddle and ball mechanics using keyboard input
-- Collision detection with bricks, walls, and paddle
-- Score tracking, win/lose states, and visual effects
-- Power-up logic and advanced bricks
-- Custom neon-themed backgrounds and assets
+## Technologies Used
+- Java  
+- Java Swing  
+- Object Oriented Programming  
+- Git and GitHub  
 
----
+## Core Logic
+The game uses a Swing Timer to implement a consistent game loop. User input is handled through KeyListener events, while rendering is managed using Graphics2D. A centralized game state manager controls transitions between start, gameplay, win, and loss states.
 
-##  Key Concepts
-
-- Java GUI programming with Swing
-- Object-Oriented Design (OOP)
-- Game loop using `javax.swing.Timer`
-- Input handling via `KeyListener`
-- Dynamic rendering with `Graphics2D`
-- Scene management via game state controller
-
----
-
-##  File Structure
-
-```
+## Project Structure
 NeonCyberRush/
-├── manifest.txt
-├── ProjectOverview.docx
+├── src/
+│ ├── Main.java
+│ ├── GameFrame.java
+│ ├── GamePanel.java
+│ ├── Paddle.java
+│ ├── Ball.java
+│ ├── Brick.java
+│ ├── AdvancedBrick.java
+│ ├── PowerUp.java
+│ ├── GameStateManager.java
+│ └── GameState.java
 ├── assets/
-│   ├── background.png
-│   └── neon_background.png
-└── src/
-    ├── Main.java
-    ├── GameFrame.java
-    ├── GamePanel.java
-    ├── Paddle.java
-    ├── Ball.java
-    ├── Brick.java
-    ├── AdvancedBrick.java
-    ├── PowerUp.java
-    ├── EffectManager.java
-    ├── BrickHitEffect.java
-    ├── StartScreenPanel.java
-    ├── Theme.java
-    ├── GameStateManager.java
-    └── GameState.java
-```
+│ └── visual assets
+└── manifest.txt
 
----
+## How to Run Locally
+1. Ensure Java is installed  
+2. Clone the repository  
+3. Compile and run from the src directory  
 
-##  Technologies Used
-
-- **Language**: Java  
-- **Library**: Java Swing  
-- **Tools**: JDK 17+, IntelliJ or VS Code, Git & GitHub
-
----
-
-##  Purpose
-
-This project was built to demonstrate core programming and game development skills using Java. It combines OOP, real-time graphics, keyboard input, and responsive UI elements to simulate a complete arcade game — making it a standout portfolio project for Java developers.
-
----
-
-##  How to Run
-
-1. Ensure Java is installed:
-```bash
-java -version
-```
-
-2. Download or clone the repository:
-```bash
-git clone https://github.com/Busrah25/NeonCyberRush.git
-```
-
-3. Navigate to the project folder and run the game:
-```bash
-java -cp src Main
-```
-
-> Or compile everything first:
-```bash
 javac src/*.java
 java -cp src Main
-```
 
----
 
-##  Author
-
-**Bushra Ahmed**  
-📧 [busrahkhanom25@gmail.com](mailto:busrahkhanom25@gmail.com)  
-🔗 [LinkedIn](https://linkedin.com/in/busrah) • [GitHub](https://github.com/Busrah25)
+## Future Improvements
+- Multiple levels with increasing difficulty  
+- Sound effects and background music  
+- Additional power up variations  
