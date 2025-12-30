@@ -1,4 +1,4 @@
-# ⚡ Neon Cyber Rush
+# Neon Cyber Rush
 
 **Neon Cyber Rush** is a futuristic 2D arcade-style brick breaker game built in Java using Swing. Featuring animated visuals, power-ups, start screens, and a modular object-oriented structure, this project showcases complete game development principles using Java GUI and event-driven logic.
 
